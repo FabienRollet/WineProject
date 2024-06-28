@@ -102,8 +102,10 @@ export default function WineFilter() {
   };
   return (
     <>
-      <button onClick={getRandomWine}>Afficher un Vin Aléatoire</button>
+    <section>
+      <button onClick={getRandomWine}>Trouver le vin qui me correspond</button>
       {wine && <p>{wine}</p>}
+      </section>
     </>
   );
 }

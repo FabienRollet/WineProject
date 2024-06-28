@@ -95,7 +95,7 @@ function BeerFilter() {
     <section className="beer-search">
       <input
         type="text"
-        placeholder="Rechercher une bière..."
+        placeholder="Rechercher ma bière préferée"
         value={searchTerm}
         onChange={handleChange}
         className="search-input"
@@ -113,7 +113,6 @@ function BeerFilter() {
           ))}
         </ul>
       )}
-      <button>Quel vin blanc vous correspond ?</button>
     </section>
   );
 }
