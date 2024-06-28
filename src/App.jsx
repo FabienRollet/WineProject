@@ -10,6 +10,7 @@ function App() {
       </header>
       <main>
       <BeerFilter />
+      <img src="src/assets/arrow.png"/>
       <WineFilter />
       </main>
     </>

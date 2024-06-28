@@ -102,9 +102,9 @@ export default function WineFilter() {
   };
   return (
     <>
-    <section>
+    <section className="wine">
       <button onClick={getRandomWine}>Trouver le vin qui me correspond</button>
-      {wine && <p>{wine}</p>}
+      {wine && <a href={`https://www.google.com/search?q=vin+${wine}`} target="_blank" className="selected">{wine}</a>}
       </section>
     </>
   );

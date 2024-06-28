@@ -6,7 +6,7 @@
 
 header{
   background-color: #ebe2d6;
-  padding-left: 3rem;
+  padding-left: 10rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -19,6 +19,7 @@ h1{
 
 header>p{
   background-color: #ebe2d6;
+  padding-left: 5rem;
 }
 
 main{
@@ -39,7 +40,6 @@ main{
 
 .suggestions-list {
   position: absolute;
-  width: 11rem;
   border: 1px solid #ccc;
   border-top: none;
   border-radius: 0 0 4px 4px;
@@ -61,7 +61,7 @@ button {
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
-  background-color: #3498db; /* Couleur de fond initiale */
+  background-color: #3498db;
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -69,11 +69,11 @@ button {
 }
 
 button:hover {
-  background-color: #2980b9; /* Couleur de fond au survol */
+  background-color: #2980b9;
 }
 
 button:active {
-  transform: scale(1.1); /* Grossir au clic */
+  transform: scale(1.1);
 }
 
 .beer-search {
@@ -139,4 +139,20 @@ button:hover {
 
 .suggestion-item:hover {
   background-color: #f1f1f1;
+}
+
+a{
+  display: block;
+  height: 5rem;
+  text-align: center;
+  padding-top: 20%;
+  font-weight: 900;
+  font-size: xx-large;
+
+}
+
+img{
+  width: 10rem;
+  height: 100%;
+  margin-top: 2rem;
 }
